@@ -37,8 +37,6 @@ header {
   }
   
   .jumbotron h2 {
-    background-image: url("legs.jpeg");
-    background-size: cover;
     font-size: 100px;
     font-weight: 700;
     padding: 20px 0;
