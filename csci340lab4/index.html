@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Title</title>
+    <title>Dog Finder and Tamer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="style.css"/>
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
@@ -11,24 +11,28 @@
    <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <h1>Locate nearest dog to you</h1>
-          <input id="dogGet" type="button" value="Locate"></input>
+          <h1>Locate dog that is nearest to you</h1>
+          <p><input id="dogGet" type="button" value="Locate"></input></p>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-12">
-          <img id="dog" src="images/blank.png" alt="Nearest dog" width="300">
+          <img id="dog" src="images/blank.png" alt="Nearest dog" width="300" class="center">
       </div>
+         <div class="col-lg-18">
+            <h2>Distance from dog:</h2>
+            <h2 id="randNum">0 miles</h2>
+         </div>
       </div>
       <div class="row">
          <div class="col-lg-12">
-           <h1>Proprietary algorithm for determining what drink is best suited to tame the dog</h1>
-           <input id="drinkGet" type="button" value="Run algorithm"></input>
+           <h1>Proprietary algorithm for determining what drink is best suited to befriend the dog</h1>
+           <p><input id="drinkGet" type="button" value="Run algorithm"></input></p>
          </div>
        </div>
        <div class="row">
          <div class="col-lg-12">
-           <img id="drink" src="images/blank.png" width="300">
+           <img id="drink" src="images/blank.png" width="300" class="center">
        </div>
        </div>
    </div>
@@ -36,4 +40,3 @@
    <script src="script.js"></script>
 </body>
 </html>
-

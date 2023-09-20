@@ -9,6 +9,22 @@ $(document).ready(function() {
            $('#dog').attr("src", "images/blank.png");
          } else {
            $('#dog').attr("src", results["url"]);
+           var elem = document.getElementById("dogGet");
+           elem.value = "Locate ($5 per click)";
+           var $num = $("#randNum");
+           $.ajax({
+            type: "GET",
+            dataType: "json",
+            url: "https://api.math.tools/numbers/random?min=214&max=1743&total=1",
+            success: function(result) {
+               $num.text(result + " miles away");
+               console.log(result);
+               console.log(num);
+            },
+            error: function(xhr,status,error) {
+              console.log(error);
+            }
+          });
          }
        },
        error: function(xhr,status,error) {

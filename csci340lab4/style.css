@@ -1,19 +1,33 @@
+.center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 300px;
+}
 
 
 h1 {
    font-family: 'PT Sans', sans-serif;
-   font-size: 4em;
+   font-size: 3em;
    text-align: center;
    padding: 20px 0;
+   font-weight: bold;
+}
+
+h2 {
+   font-family: 'PT Sans', sans-serif;
+   font-size: 2em;
+   text-align: center;
 }
   
 p {
    font-family: 'PT Sans', sans-serif;
-   font-size: 1em;
+   font-size: 1.5em;
    text-align: center;
 }
 
 body {
    margin: 0;
    padding: 0;
+   background-color:darkgrey;
 }
